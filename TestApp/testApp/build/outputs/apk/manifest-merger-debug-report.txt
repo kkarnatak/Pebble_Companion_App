@@ -1,0 +1,118 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+	package
+		ADDED from AndroidManifest.xml:3:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from com.android.support:support-v4:20.0.0:16:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+permission#com.example.PebbleKitExample.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:10:3
+	android:protectionLevel
+		ADDED from AndroidManifest.xml:10:82
+	android:name
+		ADDED from AndroidManifest.xml:10:15
+uses-permission#com.example.PebbleKitExample.permission.C2D_MESSAGE
+ADDED from AndroidManifest.xml:11:3
+	android:name
+		ADDED from AndroidManifest.xml:11:20
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from AndroidManifest.xml:12:3
+	android:name
+		ADDED from AndroidManifest.xml:12:20
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:13:3
+	android:name
+		ADDED from AndroidManifest.xml:13:20
+uses-permission#android.permission.SEND_SMS
+ADDED from AndroidManifest.xml:14:3
+	android:name
+		ADDED from AndroidManifest.xml:14:20
+uses-permission#android.permission.READ_CONTACTS
+ADDED from AndroidManifest.xml:15:3
+	android:name
+		ADDED from AndroidManifest.xml:15:20
+uses-permission#android.permission.NFC
+ADDED from AndroidManifest.xml:16:3
+	android:name
+		ADDED from AndroidManifest.xml:16:20
+uses-feature#android.hardware.nfc
+ADDED from AndroidManifest.xml:17:3
+	android:name
+		ADDED from AndroidManifest.xml:17:17
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from AndroidManifest.xml:20:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from AndroidManifest.xml:24:5
+	android:name
+		ADDED from AndroidManifest.xml:24:22
+uses-permission#android.permission.WAKE_LOCK
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+application
+ADDED from AndroidManifest.xml:28:5
+MERGED from TestApp:pEBBLE_KIT:unspecified:9:5
+MERGED from com.android.support:support-v4:20.0.0:17:5
+	android:label
+		ADDED from AndroidManifest.xml:31:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:29:9
+	android:icon
+		ADDED from AndroidManifest.xml:30:9
+	android:theme
+		ADDED from AndroidManifest.xml:32:9
+activity#com.example.testapp.MainActivity
+ADDED from AndroidManifest.xml:33:9
+	android:label
+		ADDED from AndroidManifest.xml:35:13
+	android:name
+		ADDED from AndroidManifest.xml:34:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:36:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:37:17
+	android:name
+		ADDED from AndroidManifest.xml:37:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:39:17
+	android:name
+		ADDED from AndroidManifest.xml:39:27
+user-permission
+ADDED from TestApp:pEBBLE_KIT:unspecified:7:5
+	android:name
+		ADDED from TestApp:pEBBLE_KIT:unspecified:7:22
+activity#com.getpebble.android.kit.PEBBLE_KIT
+ADDED from TestApp:pEBBLE_KIT:unspecified:10:9
+	android:label
+		ADDED from TestApp:pEBBLE_KIT:unspecified:12:13
+	android:name
+		ADDED from TestApp:pEBBLE_KIT:unspecified:11:13
+intent-filter#android.intent.action.MAIN
+ADDED from TestApp:pEBBLE_KIT:unspecified:13:13
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: com.getpebble.android.kit has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from AndroidManifest.xml:2:1 reason: com.getpebble.android.kit has a targetSdkVersion < 4
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from AndroidManifest.xml:2:1 reason: com.getpebble.android.kit requested WRITE_EXTERNAL_STORAGE

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/kartikeya/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/14.0.1/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4">
+        <dex dex="/home/kartikeya/Work/TestApp/testApp/build/intermediates/pre-dexed/debug/guava-14.0.1-1b1a5e761e0411728077909e0243bb683e1a8be7.jar" />
+    </item>
+    <item
+        jar="/home/kartikeya/Work/TestApp/testApp/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/libs/internal_impl-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d">
+        <dex dex="/home/kartikeya/Work/TestApp/testApp/build/intermediates/pre-dexed/debug/internal_impl-20.0.0-46e34306bd30ae79c4e2d83dbc82e97bdc3b05de.jar" />
+    </item>
+    <item
+        jar="/home/kartikeya/Work/Android SDK/sdk/extras/android/m2repository/com/android/support/support-annotations/20.0.0/support-annotations-20.0.0.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa">
+        <dex dex="/home/kartikeya/Work/TestApp/testApp/build/intermediates/pre-dexed/debug/support-annotations-20.0.0-ecfab2f27748477c905a7c746ac8f605be038f21.jar" />
+    </item>
+    <item
+        jar="/home/kartikeya/Work/TestApp/testApp/build/intermediates/exploded-aar/com.android.support/support-v4/20.0.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="8694693636ab36910c8100ce527c258ff3ebece0">
+        <dex dex="/home/kartikeya/Work/TestApp/testApp/build/intermediates/pre-dexed/debug/classes-ef25b4025e0c00fcf95db322ea1e364b8f10a12c.jar" />
+    </item>
+    <item
+        jar="/home/kartikeya/Work/TestApp/testApp/build/intermediates/exploded-aar/TestApp/pEBBLE_KIT/unspecified/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="c11cb703a3dd85352ca04fd46c5faa40c632f593">
+        <dex dex="/home/kartikeya/Work/TestApp/testApp/build/intermediates/pre-dexed/debug/classes-8cf9a17df2ee8aa92642b4cac942341f26af603f.jar" />
+    </item>
+
+</items>
